@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Supplies Store</title>
+    <style>
+        body {
+            background-color: #F2F2F2;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            background-color: #660066;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .search-bar {
+            margin: 20px auto;
+            width: 50%;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .product-card {
+            margin: 20px auto;
+            width: 50%;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .product-details {
+            padding: 10px;
+        }
+
+        .product-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .product-price {
+            color: #660066;
+            font-size: 16px;
+        }
+
+        .add-to-cart {
+            background-color: #660066;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .add-to-cart:hover {
+            background-color: #440044;
+        }
+
+        .social-media {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-media a:hover {
+            color: #440044;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Art Supplies Store</h1>
+      <label for="search">Search:</label>
+
+        <input type="text" id="search" class="search-bar" placeholder="Search for art supplies...">
+    </header>
+
+    <main>
+        <h2>Home</h2>
+        <p>Welcome to our online art supplies store! We offer a wide range of high-quality art supplies for artists of all levels. Browse our selection of paints, brushes, canvases, and more to find the perfect tools for your next masterpiece.</p>
+
+        <h2>Supplies</h2>
+        <div class="product-card">
+            <img class="product-image" src="paint-1.jpg" alt="Acrylic Paint">
+            <div class="product-details">
+                <h3 class="product-name">Acrylic Paint Set</h3>
+                <p class="product-price">$29.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img class="product-image" src="brushes-1.jpg" alt="Art Brushes">
+            <div class="product-details">
+                <h3 class="product-name">Art Brushes Set</h3>
+                <p class="product-price">$19.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img class="product-image" src="canvas-1.jpg" alt="Canvas">
+            <div class="product-details">
+                <h3 class="product-name">Canvas Set</h3>
+                <p class="product-price">$39.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright © 2022 Art Supplies Store. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
